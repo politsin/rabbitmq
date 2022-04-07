@@ -10,8 +10,8 @@
 * Напишите что-нибудь уникальное в ./etc/.erlang.cookie
   - TODO: перенести этот функционал в ./start.sh
 * Задайте `default_user` и `default_pass` в `./etc/rabbitmq/rabbitmq.conf`
-* Задайте hostname в `docker-compose.yml` (вроде и без этого норм)
-* `start.sh`
+* Задайте hostname в `docker-compose.yml`
+* `./start.sh`
 
 ## Info
 * Админка: https://mqtt.example.com:15671/
