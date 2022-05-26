@@ -19,15 +19,18 @@ services:
       - "/opt/apps/certbot/tls/private.pem:/tls/private.pem"
       - "/opt/apps/certbot/tls/fullchain.pem:/tls/fullchain.pem"
     ports:
+      # mqtt
       - "1883:1883"
       - "8883:8883"
-      - "15676:15676"
-      # - "15675:15675"
+      # mqtt-/ws
+      # "1884:1884"
+      - "8884:8884"
+      # amqp
       - "5671:5671"
       - "5672:5672"
+      # web managment
       - "15671:15671"
       # - "15672:15672"
-      # - "5672:5672"
       # - "35197:35197"
       # - "15673:15673"
       # - "15674:15674"
